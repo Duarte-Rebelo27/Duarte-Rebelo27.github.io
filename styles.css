@@ -1,17 +1,17 @@
 h1 {
-    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 h2 {
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
+
 
 .University {
     font-style: italic;
 }
-
 
 .menu {
     width: 80%;
@@ -22,29 +22,27 @@ h2 {
     max-width: 500px;
 }
 
-
+.nav {
+    background-color: blanchedalmond;
+    max-width: 25%;
+    min-width: 140px;
+    flex: 1;
+}
 
 
 .topics {
-    font-style: italic;
+    /*font-style: italic;*/
     text-align: left;
-    width: 60%;
 }
 
 .questions p {
     display: inline-block;
+    text-align: left;
     margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
 }
 
 .answers {
-    text-align: right;
-    width: 40%;
+    text-align: left;
+    margin-top: 2px;
 
-}
-
-nav {
-    color: black;
-    font-style: "font-family:Arial, Helvetica, sans-serif;"
 }
