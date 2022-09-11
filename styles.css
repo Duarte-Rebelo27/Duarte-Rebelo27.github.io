@@ -1,0 +1,153 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.front {
+    margin-top: 5%;
+}
+
+body {
+    background-color: bisque;
+    margin-left: 21%;
+    padding-top: 2%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 9%;
+    left: 0%;
+    background: #333;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    font-size: 150%;
+    text-decoration: none;
+    color: #f2f2f2;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: cornflowerblue;
+}
+
+.sidebar a:active {
+    color: mediumpurple;
+}
+
+.hobbies {
+    text-align: left;
+}
+
+nav {
+
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background: #ddd;
+    color: black;
+
+}
+
+.question {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.a_esquerda {
+    display: block;
+    height: 200px;
+    width: 300px;
+    left: 21%;
+    position: absolute;
+
+
+}
+
+.a_direita {
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    left: 40%;
+    position: relative;
+}
+
+.logo_uni {
+    display: block;
+    height: 150px;
+    width: 300px;
+    left: 50%;
+    position: absolute;
+    padding-bottom: 2%;
+}
+
+.grande {
+    font-size: 100px;
+}
+
+
+
+hr {
+    height: 3px;
+    background-color: #333;
+    border-color: #333;
+}
+
+.bottom_line {
+    margin-top: 5%;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    z-index: 1;
+}
+
+.university {
+    text-align: center;
+    font-style: italic;
+}
+
+.university a {
+    color: #333;
+    font-size: 120%;
+}
+
+.university a:hover {
+    color: cornflowerblue;
+}
+
+.university a:active {
+    color: mediumpurple;
+}
